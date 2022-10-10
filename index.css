@@ -1,25 +1,35 @@
 body {
     background-image: url("background.jpg");
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-    height: auto;
+    
 }
 
+img {
+    object-fit: cover;
+}
+
+/*html {
+    background: url("background.jpg") no-repeat center fixed;
+    background-size: cover;
+}*/
+
 .main-body {
+    background-color: white;
     max-width: 375px;
     margin: auto;
-    background-color: white;
     border-radius: 15px;
-    margin-top: 10%;
-    padding-top: 1.25rem;
-    padding-bottom: 2.5rem;
-    size: 70%;
+    margin-top: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 1.5%;
+    
 }
 
 h1 {
-    font-size: 2rem;
-    margin-top: 30px;
+    font-size: 2.5rem;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -50,10 +60,4 @@ button {
 
 #save-btn {
     background: darkgreen;
-}
-
-@media screen and (max-width: 480px) {
-.main-body{
-    margin-top: 50%;
-}
 }
