@@ -4,6 +4,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    
 }
 
 .main-body {
@@ -11,21 +12,26 @@ body {
     margin: auto;
     background-color: white;
     border-radius: 10px;
-    margin-top: 5rem;
+    margin-top: 5%;
     padding-top: 1.25rem;
     padding-bottom: 2.5rem;
+    size: 70%;
 }
 
 h1 {
     font-size: 2rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 h2 {
     font-size: 3.2rem;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 button {
@@ -34,9 +40,10 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
+    width: 12.5rem;
+    margin-bottom: 15px;
     border-radius: 50px;
+    display: inline;
 }
 
 #increment-btn {
@@ -48,5 +55,5 @@ button {
 }
 
 @media screen and (min-width: 480px) {
-    
+
 }
